@@ -43,11 +43,3 @@ targetrules<-apriori(data=product, parameter=list(supp=0.001,conf = 0.05,minlen=
                control = list(verbose=F))
 targetrules<-sort(targetrules,decreasing=TRUE,by="confidence")
 inspect(targetrules)
-
-
-
-
-
-
-
-
