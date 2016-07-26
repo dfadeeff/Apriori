@@ -50,12 +50,4 @@ inspect(targetrules)
 
 
 
-#Eliminate redundancies
-#subset.matrix <- is.subset(rules,rules)
-#subset.matrix[lower.tri(subset.matrix,diag=T)] <- NA
-#redundant <- colSums(subset.matrix,na.rm = T) >= 1
-#rules.pruned <- rules[!redundant]
-#rules <- rules.pruned
-
-
 
